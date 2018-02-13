@@ -41,10 +41,11 @@
   },
   "devDependencies": {
     "@angular/cli": "^1.6.8",
-    "eslint": "^4.17.0"
+    "eslint": "^4.17.0",
+    "mocha": "^5.0.0"
   },
   "scripts": {
     "start": "node bin/wwww",
-    "test": "./node_modules/.bin/eslint bin/wwww ./path"
+    "test": "./node_modules/.bin/eslint ./ ./path"
   }
 }
