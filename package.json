@@ -3,6 +3,7 @@
   "version": "0.10.0",
   "private": false,
   "description": "Simple yet powerful absence management software for small and medium size business",
+  "main": "bin/wwww",
   "engines": {
     "node": ">=4.0.0"
   },
@@ -39,7 +40,11 @@
     "validator": "^3.43.0"
   },
   "devDependencies": {
+    "@angular/cli": "^1.6.8",
+    "eslint": "^4.17.0"
   },
   "scripts": {
+    "start": "node bin/wwww",
+    "test": "./node_modules/.bin/eslint bin/wwww ./path"
   }
 }
